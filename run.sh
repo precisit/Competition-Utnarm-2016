@@ -1,2 +1,2 @@
-gcc bugs.c -o bugs.bin;
+gcc bugs.c -o bugs.bin
 ./bugs.bin
