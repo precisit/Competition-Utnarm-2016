@@ -2,10 +2,9 @@
 
 int recur(int i) {
   if (i > 0) {
-    recur(i - 1);
+    printf("%d\n", recur(i - 1));
   }
-  printf("%d\n", i);
-  return 0;
+  return i;
 }
 
 int main() {
