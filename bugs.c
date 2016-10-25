@@ -2,8 +2,8 @@
 
 void recur(int i) {
   if (i >= 0) {
-    recur(i - 1);
-    printf("%d\n", i);
+    recur(--i);
+    printf("%d\n", i + 1);
   }
 }
 
