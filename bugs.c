@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-void recur(int i) {
+int recur(int i) {
   if (i > 0) {
     printf("%d\n", i);
     recur(--i);
