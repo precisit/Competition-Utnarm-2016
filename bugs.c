@@ -8,5 +8,5 @@ int recur(int i) {
 }
 
 int main() {
-  recur(10);
+  recur(10)
 }
