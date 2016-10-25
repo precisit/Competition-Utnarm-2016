@@ -1,4 +1,4 @@
-include<stdio.h>
+include<stdio>
 
 int recur(int i) {
   if (i > 0) {
