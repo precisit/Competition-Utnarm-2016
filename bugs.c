@@ -3,7 +3,7 @@
 void recur(int i) {
   if (i >= 0) {
     recur(--i);
-    printf("%d\n", i + 1);
+    printf("%d\n", i);
   }
 }
 
