@@ -9,5 +9,4 @@ void recur(int i) {
 
 int main() {
   recur(10);
-  return 0;
 }
